@@ -1,0 +1,6 @@
+duckdb
+pandas
+pyarrow
+kagglehub
+python-dotenv
+dbt-duckdb

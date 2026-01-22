@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: bronze_orders
+    description: >
+      Bronze-level standardized orders table.
+      Raw Olist orders data with cleaned timestamps and explicit column naming.
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_id
+        tests:
+          - not_null
+
+      - name: order_purchase_ts
+        description: "Timestamp when the order was placed"

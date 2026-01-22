@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: audit_orders_quality
+    description: >
+      Quality audit metrics for orders data.
+      Used to assess whether downstream analytics are safe.

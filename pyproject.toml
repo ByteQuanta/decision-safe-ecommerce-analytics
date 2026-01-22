@@ -1,0 +1,11 @@
+[project]
+name = "decision-safe-ecommerce-analytics"
+version = "0.1.0"
+description = "Decision-aware e-commerce analytics pipeline with provenance, contracts, and risk-aware reporting"
+requires-python = ">=3.11"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
