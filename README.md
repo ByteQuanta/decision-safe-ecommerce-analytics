@@ -184,6 +184,7 @@ These properties make it well-suited for demonstrating
 
 ### Folder Structure
 
+```list
 decision-safe-ecommerce-analytics/
 │
 ├── README.md
@@ -238,6 +239,7 @@ decision-safe-ecommerce-analytics/
 │
 └── diagrams/
     └── pipeline_architecture.md
+```
 
 ---
 
